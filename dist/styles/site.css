@@ -23,6 +23,24 @@
   font-size: 22px;
   margin-top: 1rem;
 }
+.list li:nth-child(1) {
+  background: #90caf9;
+}
+.list li:nth-child(2) {
+  background: #80deea;
+}
+.list li:nth-child(3) {
+  background: #a5d6a7;
+}
+.list li:nth-child(4) {
+  background: #e6ee9c;
+}
+.list li:nth-child(5) {
+  background: #fff176;
+}
+.list li:nth-child(6) {
+  background: #ffd54f;
+}
 @media (hover: hover) {
   .list li a span {
     transform: translateY(100px);
