@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "stylus assets/styles/site.styl -o dist/styles/site.css",
-    "build-html": "pug assets/html/index.pug -o dist/",
+    "build-html": "pug --output-style compressed -o dist/ assets/html/index.pug",
     "build": "npm run build-css && npm run build-html"
   },
   "repository": {
