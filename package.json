@@ -29,11 +29,11 @@
     "express-handlebars": "^3.1.0",
     "jade": "^1.11.0",
     "stylus": "^0.54.7",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-cli":"^1.0.0-alpha6"
   },
   "devDependencies": {
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "pug-cli":"^1.0.0-alpha6"
   }
